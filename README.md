@@ -1,5 +1,5 @@
-Ucode_Pathfinder - это реализация алгоритма поиска кратких и альтернативных путей.
-Для использования Pathfinder установите его через процедуру сборки MakeFile и следуйте инструкциям: 
+Ucode_Pathfinder - This is an implementation of an algorithm for finding shortcuts and alternative methods.
+To use Pathfinder, install it using the step-by-step MakeFile build and follow people:
 
 ````bash
 make - install Pathfinder
@@ -7,15 +7,15 @@ make reinstall - reinstall Pathfinder
 make uninstall - uninstall Pathfinder
 make clean - Delete binary file
 ````
-Запуск Pathfinder
+Start Pathfinder
 
 ````bash
 ./pathfinder [file]
 ````
-В качестве входных агрументов утилита принимает текстовый файл с инструкцией: 
+The utility accepts a text file with instructions as input arguments:
 ````c++
-1. 5 = количество островов
-2. A-B,2 = от острова - к острову, дистанция
+1. 5 = number of islands
+2. A-B,2 = from island - to island, distance
 3. B-C,3
 4. C-D,6
 5. D-E,1
